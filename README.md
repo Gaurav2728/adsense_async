@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/adsense_async.svg)](https://badge.fury.io/rb/adsense_async)
+
 # AdsenseAsync
 
 It is a helper to create the google adsense async type tag in rails. Instead of using vanilla javascript for managing google adsense, it would be easier and hassle free to use `adsense_async_tag` tag to achieve the same.

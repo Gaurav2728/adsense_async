@@ -11,9 +11,18 @@ Gem::Specification.new do |spec|
   spec.email         = ["gaurav2728@gmail.com"]
 
   spec.summary       = "Provide a helper for google async ads api in rails."
-  spec.description   = "Google provides async and sync api(javascript) to show ads, adsense_async gem support google adsense async api."
+  spec.description   = "Google provides async and sync api (javascript) to show ads, adsense_async gem support google adsense async api."
   spec.homepage      = "https://github.com/gaurav2728/adsense_async"
   spec.license       = "MIT"
+
+  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
+  # to allow pushing to a single host or delete this section to allow pushing to any host.
+  if spec.respond_to?(:metadata)
+    spec.metadata['issue_tracker'] = "http://gauravatrai.com"
+  else
+    raise "RubyGems 2.0 or newer is required to protect against " \
+      "public gem pushes."
+  end
 
   spec.post_install_message = "adsense_async gem currently in beta version. Thanks for installing!"
 
